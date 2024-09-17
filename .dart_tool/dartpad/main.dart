@@ -114,6 +114,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   _buildButton('+'),
                 ],
               ),
+              Row(
+                children: [
+                  _buildButton('^2'), // Square button
+                ],
+              ),
             ],
           ),
         ],
